@@ -14,6 +14,7 @@ Aplikasi web interaktif yang mengelompokkan mahasiswa berdasarkan **gaya hidup, 
 - Prediksi cluster secara real-time memakai model K-Means terlatih.
 - Tabel rata-rata tiap cluster + interpretasi otomatis.
 - Visualisasi peta cluster (reduksi dimensi **PCA 2D**) lengkap dengan posisi input user.
+- **Kelompokkan banyak mahasiswa sekaligus** — pakai data contoh atau upload CSV sendiri, lalu download hasilnya.
 
 ## 📊 Dataset
 `student_lifestyle_dataset.csv` — 2000 mahasiswa, 7 fitur:
