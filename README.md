@@ -2,7 +2,7 @@
 
 Aplikasi web interaktif yang mengelompokkan mahasiswa berdasarkan **gaya hidup, performa akademik, dan tingkat stres** menggunakan **K-Means Clustering**. User cukup mengatur gaya hidupnya lewat slider, lalu aplikasi memprediksi ia masuk ke cluster mana beserta visualisasinya.
 
-> 🔗 **Live demo:** _(isi setelah deploy)_ https://xxxxx.streamlit.app
+> 🔗 **Live demo:** https://student-lifestyle-clustering.streamlit.app
 
 <!-- Tips: tambahkan screenshot aplikasi di sini setelah deploy -->
 <!-- ![Screenshot](screenshot.png) -->

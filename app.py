@@ -128,16 +128,12 @@ user_input = pd.DataFrame(
 user_scaled = scaler.transform(user_input)
 user_cluster = int(kmeans.predict(user_scaled)[0])
 
-col1, col2 = st.columns(2)
+st.subheader("📝 Data Input Kamu")
+st.dataframe(user_input, use_container_width=True)
 
-with col1:
-    st.subheader("📝 Data Input Kamu")
-    st.dataframe(user_input, use_container_width=True)
-
-with col2:
-    st.subheader("🎯 Hasil Prediksi")
-    st.success(f"Kamu diprediksi masuk ke **Cluster {user_cluster}**")
-    st.write(cluster_desc[user_cluster])
+st.subheader("🎯 Hasil Prediksi")
+st.success(f"Kamu diprediksi masuk ke **Cluster {user_cluster}**")
+st.write(cluster_desc[user_cluster])
 
 # ----------------------------------------------------------------------------
 # Rata-rata fitur per cluster
