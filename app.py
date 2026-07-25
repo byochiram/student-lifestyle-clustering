@@ -121,7 +121,7 @@ sleep_hours = st.sidebar.slider("Jam Tidur / Hari", 4.0, 10.0, 7.0)
 social_hours = st.sidebar.slider("Jam Bersosialisasi / Hari", 0.0, 12.0, 3.0)
 physical_activity = st.sidebar.slider("Jam Aktivitas Fisik / Hari", 0.0, 10.0, 2.0)
 gpa = st.sidebar.slider("GPA", 0.0, 4.0, 3.0)
-stress_level = st.sidebar.selectbox("Tingkat Stres", list(STRESS_MAPPING.keys()))
+stress_level = st.sidebar.radio("Tingkat Stres", list(STRESS_MAPPING.keys()))
 
 user_input = pd.DataFrame([[
     study_hours, extracurricular_hours, sleep_hours, social_hours,
