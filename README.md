@@ -57,6 +57,3 @@ student-lifestyle-clustering/
 ├── requirements.txt                # Dependensi
 └── README.md
 ```
-
-## 👤 Tentang
-Berawal dari project Machine Learning, lalu dikembangkan menjadi aplikasi web interaktif untuk portfolio.
